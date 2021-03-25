@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Metas Page details-->
+    <title>Invertus</title>
+    <meta name="description" content="UX designer and web developer">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--main style-->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/component.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+
+    <!--google font style-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700,800,100' rel='stylesheet' type='text/css'>
+    <!--font-family: 'Raleway', sans-serif; -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600italic,600,700italic,700' rel='stylesheet' type='text/css'>
+    <!--font-family: 'Open Sans', sans-serif; -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!--font-family: 'Montserrat', sans-serif; -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- font icon css style-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+
+<body onLoad="load()" onUnload="GUnload()">
+
+    <!--wrapper start-->
+    <div class="wrapper" id="wrapper">
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="status"></div>
+        </div>
+        <!--Header start -->
+        <header>
+            <!--Language -->
+            <div class="container">
+                <div class="row relative">
+                    <ul class="language">
+                        <li> <a href="#" data-toggle="dropdown" class="portuguese">Português</a><i class="fa fa-caret-down"></i>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#" class="english">English</a></li>
+                                <li><a href="#" class="spanish">Spanish</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/Language -->
+            <!--menu start-->
+            <div class="menu">
+                <div class="navbar-wrapper">
+                    <div class="container">
+                        <div class="navwrapper">
+                            <div class="navbar navbar-inverse navbar-static-top">
+                                <div class="container">
+                                    <div class="logo">
+                                      <a href="#">
+                                        <img src="./images/logo/logo-blue.svg" alt="Invertus Marketing" class="logo-img logo-img-white">
+                                        <img src="./images/logo/logo-white.svg" alt="Invertus Marketing" class="logo-img logo-img-black">
+                                      </a>
+                                    </div>
+                                    <nav class="navArea">
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                                        </div>
+                                        <div class="navbar-collapse collapse">
+                                            <ul class="nav navbar-nav" id="navigation">
+                                                <li class="menuItem" id="home"><a href="#wrapper">Home</a></li>
+                                                <li class="menuItem"><a href="#about">Quem somos</a></li>
+                                                <li class="menuItem"><a href="#services">Serviços</a></li>
+                                                <li class="menuItem"><a href="#works">Portifólio</a></li>
+                                                <li class="menuItem"><a href="#team">Nosso Time</a></li>
+                                                <li class="menuItem"><a href="#testimonial">Depoimentos</a></li>
+                                                <li class="menuItem"><a href="#contact">Contato</a></li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Navbar -->
+                    </div>
+                </div>
+            </div>
+            <!--menu end-->
+
+            <!--banner start-->
+            <div class="banner row" id="banner">
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12 noPadd slides-container" style="height:100%">
+                    <!--background slide show start-->
+                    <div class="slide">
+                        <!--header text1 start-->
+                        <div class="container hedaer-inner">
+                            <div class="bannerText">
+                                <h1>Invertus</h1>
+                                <h3>Agência de criação</h3>
+                                <p>Criando a experiência de marca que você e seu público merece.</p>
+                                <p class="banner-link"><a href="#about" class="smooth"> Quem somos <i class="fa fa-chevron-down"></i></a></p>
+                            </div>
+                        </div>
+                        <!--header text1 end-->
+                        <img src="images/header-image/image03.jpg" alt="image03"> </div>
+                    <div class="slide">
+                        <!--header text2 start-->
+                        <div class="container hedaer-inner">
+                            <div class="bannerText">
+                                <h1>Criar sua marca</h1>
+                                <h3>é nossa especialização!</h3>
+                                <p>Nós criamos designs simples, elegantes e com foco no objetivo para seus clientes.</p>
+                    
+                                <p class="banner-link"><a href="#services" class="smooth">Nossa especialização <i class="fa fa-chevron-down"></i></a></p>
+                            </div>
+                        </div>
+                        <!--header text2 end-->
+                        <img src="images/header-image/image03.jpg" alt="image023"> </div>
+                    <!--background slide show end-->
+                </div>
+            </div>
+            <!--banner end-->
+
+        </header>
+        <!--Header end -->
+        <!--Welcome section start -->
+        <section class="white_section section_gap" id="about">
+            <div class="container">
+                <div class="heading">
+                    <h1><span>Bem-vindo a</span> Invertus</h1>
+                </div>
+                <div class="row sec_top_gp">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 noPaddLeft welcome">
+                        <h1 class="welcome_heading font-light">Criamos experiências digitais inspiradoras e modernas.</h1>
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 welcomr_text">
+                        <p>A <b> Invertus Marketing </b>é uma agência que tem
+                            por objetivo atender nossos clientes em todas
+                            as necessidades na área de gráfica e marketing, do físico ao digital.</p>
+                            
+                    </div>
+                </div>
+                <div class="row sec_top_gp">
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="welcome_listing"> <span><i class="fa fa-magic"></i></span>
+                            <h3> Design Thinking</h3>
+                            <p>Acelere o seu negócio usando o Design Thinking para entregar melhores 
+                                resultados e promover a inovação no seu negócio.</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="welcome_listing"> <span><i class="fa fa-leaf"></i></span>
+                            <h3>Ideias Inovadoras</h3>
+                            <p>Para que traga resultados, a inovação deve ser vista como um processo desde o início. Caso o contrário, os projetos podem ser aprovados
+                                com base em achismos, sem que se saiba se eles realmente funcionam. O mais interessante da inovação é, aliás, conseguir transformar uma ideia em um projeto de sucesso.  </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                        <div class="welcome_listing"> <span><i class="fa fa-paper-plane"></i></span>
+                            <h3>Conte com nosso suporte</h3>
+                            <p>Conte com o nosso suporte especializado. Nossa equipe está pronta para te atender. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/Welcome section end-->
+        <!--What we do section start-->
+        <section class="orange_section section_gap" id="services">
+            <div class="container">
+                <div class="heading">
+                    <h1><span>O que nós</span> Fazemos</h1>
+                </div>
+                <div class="row sec_top_gp">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ourservice-col"> <span class="ico"><i class="fa fa-bullhorn"></i></span>
+                        <h5>Estratégia &amp; Consutoria</h5>
+                        <p>Avaliar as tendências e cenários e definir as estratégias e fatores que determinarão 
+                            a competitividade e o sucesso atual e futuro da empresa em seus mercados de atuação. </p>
+                        <div class="text-center button-container"><a class="anchor" href="#">Saiba mais</a></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ourservice-col"> <span class="ico"><i class="fa fa-magic"></i></span>
+                        <h5>Web Designer &amp; Desenvolvimento</h5>
+                        <p>Desenvolvemos websites personalizados de acordo com as necessidades de cada cliente. Cada caso recebe um tratamento especial e, através de um estudo minucioso de sua empresa, 
+                            obtemos as informações necessárias para a obtenção do melhor resultado no desenvolvimento de site. </p>
+                        <div class="text-center button-container"><a class="anchor" href="#">Saiba Mais</a></div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ourservice-col"> <span class="ico"><i class="fa fa-rocket"></i></span>
+                        <h5>Marketing de produto</h5>
+                        <p>Te ajudamos no direcionamento das ações de captação de novos clientes. Contribuímos para uma comunicação assertiva da imagem da sua marca. 
+                            Fale Conosco Agora! Abra a Sua Empresa. Segurança e Facilidade. Crie o Seu Negócio Já. Nós te Ajudaremos. </p>
+                        <div class="text-center button-container"><a class="anchor" href="#">Saiba mais</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/What we do section end-->
+        <!--Our latest project section start-->
+        <section class="white_section protfolio section_gap" id="works">
+            <div class="container">
+                <div class="heading">
+                    <h1><span>Nossos últimos</span> Projetos</h1>
+                </div>
+            </div>
+            <div class="row sec_top_gp">
+                <div class="portfolioFilter">
+                    <ul>
+                        <li><a href="#" data-filter="*" class="current">Todos os nossos projetos</a></li>
+                        <li><a href="#" data-filter=".graphic">Designer Gráfico</a></li>
+                        <li><a href="#" data-filter=".branding">Marca</a></li>
+                        <li><a href="#" data-filter=".mobile">Mobile</a></li>
+                        <li><a href="#" data-filter=".photography">Fotografia</a></li>
+                        <li><a href="#" data-filter=".marketing">Marketing</a></li>
+                    </ul>
+                </div>
+                <ul class="portfolioContainer grid row">
+                    <li class="branding graphic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="lightCon">
+                            <figure class="effect-sadie"><img src="images/projects/thumb-images/thumb1.jpg" alt="">
+                                <figcaption>
+                                    <h2>Intuited City</h2>
+                                    <p>Branding / Web Design / Mobile</p>
+                                    <a rel="lightbox-demo" href="images/projects/big-images/1.jpg" title="Project Title2" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="branding mobile photography col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="lightCon">
+                            <figure class="effect-sadie"><img src="images/projects/thumb-images/thumb2.jpg" alt="">
+                                <figcaption>
+                                    <h2>Ninigi</h2>
+                                    <p>Branding / Web Design / Mobile</p>
+                                    <a rel="lightbox-demo" href="images/projects/big-images/2.jpg" title="Project Title2" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="mobile photography col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="lightCon">
+                            <figure class="effect-sadie"><img src="images/projects/thumb-images/thumb3.jpg" alt="">
+                                <figcaption>
+                                    <h2>Daphna Laurens identity</h2>
+                                    <p>Branding / Web Design / Mobile</p>
+                                    <a rel="lightbox-demo" href="images/projects/big-images/3.jpg" title="Project Title2" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="graphic mobile marketing col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="lightCon">
+                            <figure class="effect-sadie"><img src="images/projects/thumb-images/thumb4.jpg" alt="">
+                                <figcaption>
+                                    <h2>PZSP Visual</h2>
+                                    <p>Branding / Web Design / Mobile</p>
+                                    <a rel="lightbox-demo" href="images/projects/big-images/4.jpg" title="Project Title2" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="mobile branding col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="lightCon">
+                            <figure class="effect-sadie"><img src="images/projects/thumb-images/thumb5.jpg" alt="">
+                                <figcaption>
+                                    <h2>KK Wind Solutions</h2>
+                                    <p>Branding / Graphic Design / Mobile</p>
+                                    <a rel="lightbox-demo" href="images/projects/big-images/5.jpg" title="Project Title2" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="branding marketing photography col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="lightCon">
+                            <figure class="effect-sadie"><img src="images/projects/thumb-images/thumb6.jpg" alt="">
+                                <figcaption>
+                                    <h2>Anamika</h2>
+                                    <p>Branding / Web Design / Mobile</p>
+                                    <a rel="lightbox-demo" href="images/projects/big-images/6.jpg" title="Project Title2" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="mobile branding graphic col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="lightCon">
+                            <figure class="effect-sadie"><img src="images/projects/thumb-images/thumb7.jpg" alt="">
+                                <figcaption>
+                                    <h2>Massimo Vignelli</h2>
+                                    <p>Photography / Graphic / Web Design</p>
+                                    <a rel="lightbox-demo" href="images/projects/big-images/7.jpg" title="Project Title2" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                    <li class="branding mobile photography col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                        <div class="lightCon">
+                            <figure class="effect-sadie"><img src="images/projects/thumb-images/thumb8.jpg" alt="">
+                                <figcaption>
+                                    <h2>Victor Vasarely</h2>
+                                    <p>Art Direction / Graphic Design / Branding</p>
+                                    <a rel="lightbox-demo" href="images/projects/big-images/8.jpg" title="Project Title2" class="zoom lb lb_warsaw1">View more</a> </figcaption>
+                            </figure>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-center button-container"><a href="#" class="anchor">Full Portfolio</a></div>
+        </section>
+        <!--/Our latest project section end -->
+        <!--Meet our Team section start -->
+        <section class="white_section section_gap" id="team">
+            <div class="container">
+                <div class="heading">
+                    <h1><span>Conheça nosso</span> Time</h1>
+                </div>
+                <div class="row sec_top_gp">
+                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 meet_team_left">
+                        <h1 class="welcome_heading font-light">Pessoas extremamente talentosas em quem você pode confiar.</h1>
+                        <p>Trabalhar em equipe não envolve somente dividir tarefas e juntá-las em uma coisa única. É necessário sincronia, compreensão, comunicação e flexibilidade. 
+                            Lidar com pessoas diferentes fazendo coisas diferentes para um mesmo fim pode ser um pouco complicado se você não souber o que esperar.</p>
+                        <div class="skills-col">
+                            <div class="skillbar clearfix " data-percent="90%">
+                                <div class="skillbar-title"><span>UX Strategy</span></div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent"></div>
+                            </div>
+                            <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="55%">
+                                <div class="skillbar-title"><span>Brand Management</span></div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent"></div>
+                            </div>
+                            <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="80%">
+                                <div class="skillbar-title"><span>Design &amp; Concept</span></div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent"></div>
+                            </div>
+                            <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="60%">
+                                <div class="skillbar-title"><span>Web Development</span></div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent"></div>
+                            </div>
+                            <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="90%">
+                                <div class="skillbar-title"><span>Marketing</span></div>
+                                <div class="skillbar-bar"></div>
+                                <div class="skill-bar-percent"></div>
+                            </div>
+                            <!-- End Skill Bar -->
+
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+                        <ul class="hover_listing row">
+                            <li class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="img"><img src="images/jairo.jpg" alt="">
+                                    <ul class="hover-social-icons">
+                                        <li><a target="_blank" href="https://www.facebook.com/renatho.jairo"><i class="fa fa-facebook"></i></a></li>
+                                        
+                                    </ul>
+                                </div>
+                                <h3>Renato Jairo</h3>
+                                <p>CEO - Designer   </p>
+                            </li>
+                            <li class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="img"><img src="images/team/thalles.jpg" alt="">
+                                    <ul class="hover-social-icons">
+                                        <li><a target="_blank" href="https://twitter.com/thallesdomician"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a target="_blank" href="https://facebook.com/thallesdomician"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a target="_blank" href="https://github.com/thallesdomician"><i class="fa fa-github"></i></a></li>
+                                    </ul>
+                                </div>
+                                <h3>Thalles Domician</h3>
+                                <p>Engenheiro de Software - Especialista</p>
+                            </li>
+                            <li class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="img"><img src="images/g.jpg" alt="">
+                                    <ul class="hover-social-icons">
+                                        <li><a target="_blank" href="https://www.facebook.com/GilliardSantos1"><i class="fa fa-facebook"></i></a></li>
+                                       
+                                    </ul>
+                                </div>
+                                <h3>Gilliard Santos</h3>
+                                <p>Desenvolvedor</p>
+                            </li>
+                            
+                </div>
+            </div>
+        </section>
+        <!--/Meet our Team section end-->
+        <!--Stats numbers section start-->
+        <section class="black_section numbers_section factabout">
+            <div class="container">
+                <ul class="numbers countarea row">
+                    <li> <i class="fa fa-smile-o"></i>
+                        <h3 class="timer" data-from="0" data-to="0" data-speed="10000">&nbsp;</h3>
+                        <span>Total de horas</span> </li>
+                    <li> <i class="fa fa-smile-o"></i>
+                        <h3 class="timer" data-from="0" data-to="0" data-speed="10000">&nbsp;</h3>
+                        <span>Copos de café</span> </li>
+                    <li> <i class="fa fa-smile-o"></i>
+                        <h3 class="timer" data-from="0" data-to="0" data-speed="10000">&nbsp;</h3>
+                        <span>Projetos finalizados</span> </li>
+                    <li> <i class="fa fa-smile-o"></i>
+                        <h3 class="timer" data-from="0" data-to="0" data-speed="10000">&nbsp;</h3>
+                        <span>Clientes satisfeitos</span> </li>
+                    <li> <i class="fa fa-smile-o"></i>
+                        <h3 class="timer" data-from="0" data-to="0" data-speed="10000">&nbsp;</h3>
+                        <span>Prêmios</span> </li>
+                </ul>
+            </div>
+        </section>
+        <!--/Stats numbers section end-->
+        <!--Our happy Customers section start-->
+        <section class="grey_section section_gap" id="testimonial">
+            <div class="container">
+                <div class="heading">
+                    <h1><span>Nossos clientes</span> satisfeitos</h1>
+                </div>
+                <div class="row sec_top_gp">
+                    <div class="imageSlide">
+                        <div class="imageBox"><img src="images/ok.jpg" width="98" height="98" alt=""></div>
+                        <div class="imageBox"><img src="images/ok.jpg" width="98" height="98" alt=""></div>
+                        <div class="imageBox"><img src="images/ok.jpg" width="98" height="98" alt=""></div>
+                        <div class="imageBox"><img src="images/ok.jpg" width="98" height="98" alt=""></div>
+                        <div class="imageBox"><img src="images/ok.jpg" width="98" height="98" alt=""></div>
+                        <div class="imageBox"><img src="images/ok.jpg" width="98" height="98" alt=""></div>
+                        <div class="imageBox"><img src="images/ok.jpg" width="98" height="98" alt=""></div>
+                        <div class="imageBox"><img src="images/ok.jpg" width="98" height="98" alt=""></div>
+                        <div class="imageBox"><img src="images/ok.jpg" width="98" height="98" alt=""></div>
+                        <div class="imageBox"><img src="images/ok.jpg" width="98" height="98" alt=""></div>
+                    </div>
+                    <div class="footerTopContent">
+                        <div class="quote"><i class="fa fa-quote-left"></i></div>
+                        <ul class="slides testimonialText list-unstyled">
+                            <li>
+                                <p class="font-openBold"></p>
+                                <h3 class="uppercase"></h3>
+                            </li>
+                            <li>
+                                <p class="font-openBold"></p>
+                                <h3 class="uppercase"></h3>
+                            </li>
+                            <li>
+                                <p class="font-openBold"></p>
+                                <h3 class="uppercase"></h3>
+                            </li>
+                            <li>
+                                <p class="font-openBold"></p>
+                                <h3 class="uppercase"></h3>
+                            </li>
+                            <li>
+                                <p class="font-openBold"></p>
+                                <h3 class="uppercase"></h3>
+                            </li>
+                            <li>
+                                <p class="font-openBold"></p>
+                                <h3 class="uppercase"></h3>
+                            </li>
+                            <li>
+                                <p class="font-openBold"></p>
+                                <h3 class="uppercase"></h3>
+                            </li>
+                            <li>
+                                <p class="font-openBold"></p>
+                                <h3 class="uppercase"></h3>
+                            </li>
+                            <li>
+                                <p class="font-openBold"></p>
+                                <h3 class="uppercase"></h3>
+                            </li>
+                            <li>
+                                <p class="font-openBold"></p>
+                                <h3 class="uppercase"></h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/Our happy Customers section end-->
+        <!--Company Logo section start-->
+        <section class="lightblue_section companylogo" id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 worlcompany">
+                        <div class="worklogo">
+                            <ul class="slides">
+                                <li><img src="images/logoes/logo1.gif" alt=""></li>
+                                <li><img src="images/logoes/logo2.gif" alt=""></li>
+                                <li><img src="images/logoes/logo3.gif" alt=""></li>
+                                <li><img src="images/logoes/logo4.gif" alt=""></li>
+                                <li><img src="images/logoes/logo5.gif" alt=""></li>
+                                <li><img src="images/logoes/logo2.gif" alt=""></li>
+                                <li><img src="images/logoes/logo1.gif" alt=""></li>
+                                <li><img src="images/logoes/logo4.gif" alt=""></li>
+                                <li><img src="images/logoes/logo3.gif" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Company Logo section end -->
+        <!--Contact section start-->
+        <section class="white_section section_gap" id="contact">
+            <div class="container">
+                <div class="heading">
+                    <h1><span>Entre em </span> Contato</h1>
+                </div>
+                <div class="row sec_top_gp">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <h4>Endereço</h4>
+                                <p>Invertus Marketing<br> Av. Francisco Monteiro, 3704-A <br> Santa Luzia | Ribeirão Pires | SP</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <h4>Telefone & Email</h4>
+                                <p>
+                                    <img src = "images/whatsapp-logo-1.png" width="23" height=""23>  </li><a href="tel:+551148285294">    11  99812 5950 </a><br>
+                                    <a href="mailto:contato@invertusmarketing.com.br">contato@invertusmarketing.com.br</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <h4>Horário</h4>
+                                <p>Segunda a Sexta - 9:00h às 18:00h<br> Sábado - 9:00h às 14:00h<br> Domingo - Fechado</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <h3 class="font-bold uppercase">Envie sua mensagem</h3>
+                        <div id="message"></div>
+                        <form method="post" action="php/contact.php" name="cform" id="cform">
+                            <div class="form-row clearfix">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 first"><input name="fname" id="fname" type="text" placeholder="Nome" class="normal"></div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 last"><input name="lname" id="lname" type="text" placeholder="Sobrenome" class="normal"></div>
+                            </div>
+                            <div class="form-row clearfix">
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 first">
+                                    <input name="email" id="email" type="email" placeholder="Email" class="normal">
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 last"><input name="phone" id="phone" type="text" placeholder="Telefone" class="normal"></div>
+                            </div>
+                            <div class="form-row clearfix">
+                                <textarea name="comments" id="comments" cols="" rows="" placeholder="Comentário" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 normal medium"></textarea>
+                            </div>
+                            <input type="submit" id="submit" name="send" class="button" value="Enviar Mensagem">
+                            <div id="simple-msg"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/Contact section end-->
+        <!--Google map section start -->
+        <!-- <div class="contactInfo mapArea">
+            <div id="map" style="width: 100%; height: 100%"></div>
+        </div> -->
+        <!--/Google map section end-->
+        <!--Bottom Four Column section start-->
+        <section class="black_section section_gap">
+            <div class="container">
+                <div class="row bottomfourcol">
+                    <!--Short intro start-->
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 bottomAbout">
+                        <h5 class="head">Sobre nós</h5>
+                        <p>A Invertus Marketing é uma agência que tem por objetivo atender nossos clientes em todas as necessidades na área de gráfica e marketing, do físico ao digital.</p>
+                    </div>
+                    <!--Short intro end-->
+                    <!--Services link start-->
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <h5 class="head">Service Areas</h5>
+                        <ul class="list">
+                            <li><a href="#">Nullam at ligula at velit adipiscing</a></li>
+                            <li><a href="#">Nunc pretium estqu</a></li>
+                            <li><a href="#">Etiam gravida sagittis lacinia volutpats</a></li>
+                            <li><a href="#">Lorem ipsum dolor sit amet</a></li>
+                            <li><a href="#">Boris aliquipea eiusmd tempo</a></li>
+                            <li><a href="#">Temincid dunt labore</a></li>
+                            <li><a href="#">Praesent lacinia volutpats</a></li>
+                        </ul>
+                    </div>
+                    <!--Services link start-->
+                    <!--News start-->
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <h5 class="head">Recent News</h5>
+                        <ul class="footerLinks">
+                            <li> <a href="#">Standred post with featured image</a> <span>by <a href="#">Mike Doe</a> on June 24, 2014</span> </li>
+                            <li> <a href="#">Standred post with featured image</a> <span>by <a href="#">Mike Doe</a> on June 24, 2014</span> </li>
+                            <li> <a href="#">Standred post with featured image</a> <span>by <a href="#">Mike Doe</a> on June 24, 2014</span> </li>
+                        </ul>
+                    </div>
+                    <!--News end-->
+                    <!-- flickr widget starts-->
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <h5 class="head">flickr Widget</h5>
+                        <ul class="flickr-widget clearfix">
+                            <li><a title="Adrian Fittolani" href="#"><img alt="Adrian Fittolani" src="images/flickr-img/1.jpg"><span>+</span></a></li>
+                            <li><a title="Adrian Fittolani" href="#"><img alt="Adrian Fittolani" src="images/flickr-img/2.jpg"><span>+</span></a></li>
+                            <li><a title="Adrian Fittolani at his standing desk" href="#"><img alt="Adrian Fittolani at his standing desk" src="images/flickr-img/3.jpg"><span>+</span></a></li>
+                            <li><a title="Collis does the ice bucket challenge" href="#"><img alt="Collis does the ice bucket challenge" src="images/flickr-img/4.jpg"><span>+</span></a></li>
+                            <li><a title="Justin 05" href="#"><img alt="Justin 05" src="images/flickr-img/5.jpg"><span>+</span></a></li>
+                            <li><a title="Justin 04" href="#"><img alt="Justin 04" src="images/flickr-img/6.jpg"><span>+</span></a></li>
+                            <li><a title="Justin 03" href="#"><img alt="Justin 03" src="images/flickr-img/7.jpg"><span>+</span></a></li>
+                            <li><a title="Justin 01" href="#"><img alt="Justin 01" src="images/flickr-img/8.jpg"><span>+</span></a></li>
+                        </ul>
+                    </div>
+                    <!-- flickr widget end-->
+                </div>
+            </div>
+        </section>
+        <!--/Bottom Four Column section end -->
+        <!--Footer -->
+        <footer class="footer white_section">
+            <div class="container">
+                <div class="row">
+                    <div class="pull-left">
+                        <p>&copy; Copyrigth 2021 www.invertusmarketing.com.br. Todos os direitos reservados</p>
+                    </div>
+                    <div class="pull-right">
+                        <div class="socialshare"> <a target="_blank" href="https://www.facebook.com/invertusmarketing"><i class="fa fa-facebook"></i></a> </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Footer end -->
+        <a class="gototop smooth" href="#wrapper" ><i class="fa fa-caret-up"></i></a>  </div>
+    <!--wrapper end-->
+
+    <!--modernizr js-->
+    <script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
+    <!--jquary min js-->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--for placeholder jquery-->
+    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+
+    <!--for header jquery-->
+    <script type="text/javascript" src="js/stickUp.js"></script>
+    <script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $('#banner').superslides({
+            animation: 'fade',
+            play: 4000
+        });
+    </script>
+
+    <!--for portfolio jquery-->
+    <script src="js/jquery.isotope.js" type="text/javascript"></script>
+    <link rel='stylesheet' property='stylesheet' id='theme' href='css/jquery-ui-1.8.16.custom.css' type='text/css' media='all' />
+    <link rel='stylesheet' property='stylesheet' href='css/lightbox.min.css' type='text/css' media='all' />
+
+    <script type="text/javascript" src="js/jquery.ui.widget.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script>
+
+    <!--contact form js-->
+    <script type="text/javascript" src="js/jquery.contact.js"></script>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=ABQIAAAAjU0EJWnWPMv7oQ-jjS7dYxSPW5CJgpdgO_s4yyMovOaVh_KvvhSfpvagV18eOyDWu7VytS6Bi1CWxw" type="text/javascript"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        var map;
+
+        function load() {
+            if (GBrowserIsCompatible()) {
+                map = new GMap2(document.getElementById("map"));
+                map.setCenter(new GLatLng(-37.817682, 144.957595), 13);
+                document.getElementById("map").checked = true;
+                toggleZoom(false);
+            }
+        }
+
+        function toggleZoom(isChecked) {
+            if (isChecked) {
+                map.enableScrollWheelZoom();
+            } else {
+                map.disableScrollWheelZoom();
+            }
+        }
+
+        //]]>
+    </script>
+
+    <!--about jquery-->
+    <script defer src="js/jquery.flexslider.js"></script>
+
+    <!--for coundown jquary-->
+    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script defer src="js/slideroption.js"></script>
+    <script type="text/javascript">
+        jQuery(function($) {
+            $(document).ready(function() {
+                "use strict";
+                //enabling stickUp on the '.navbar-wrapper' class
+                $('.navbar-wrapper').stickUp({
+                    parts: {
+                        0: 'banner',
+                        1: 'about',
+                        2: 'services',
+                        3: 'works',
+                        4: 'team',
+                        5: 'testimonial',
+                        6: 'blog',
+                        7: 'contact'
+                    },
+                    itemClass: 'menuItem',
+                    itemHover: 'active',
+                    topMargin: 'auto'
+                });
+
+                // run rlightbox
+                $(".lb").rlightbox();
+                $(".lb_title-overwritten").rlightbox({
+                    overwriteTitle: true
+                });
+
+                $('.flexslider').flexslider({
+                    animation: "fade",
+                    animationLoop: true,
+                    slideshow: true,
+                    pauseOnAction: false,
+                    slideshowSpeed: 7000,
+                    controlNav: true,
+                    start: function(slider) {
+                        $('body').removeClass('loading');
+                    }
+                });
+
+                //Home Testimonial 
+                var activeImage;
+                var getmaxHeight = 0;
+                $(".testimonialText li").each(function(index, element) {
+                    if ($(this).height() > getmaxHeight) {
+                        getmaxHeight = $(this).height();
+                        $(".footerTopContent").height(getmaxHeight);
+                    }
+                });
+
+                $(".testimonialText li").fadeTo("fast", 0);
+                $(".testimonialText li:first").fadeTo("fast", 1);
+                $(".imageSlide .imageBox").removeClass("activeImage");
+                $(".imageSlide .imageBox:first").addClass("activeImage");
+                $(".imageSlide .imageBox").mouseenter(function() {
+                    if (!$(this).hasClass("activeImage")) {
+                        var gi = $(this).index();
+                        //console.log(gi);
+                        $(".imageSlide .imageBox").removeClass("activeImage");
+                        $(this).addClass("activeImage");
+                        $(".testimonialText li").fadeTo("fast", 0);
+                        $(".testimonialText li:eq(" + gi + ")").fadeTo("fast", 1);
+                    }
+                })
+
+                if ($(window).width() > 960) {
+                    $('.worklogo').flexslider({
+                        animation: "slide",
+                        slideshow: true,
+                        itemWidth: 186,
+                        itemMargin: 0
+                    });
+                } else {
+                    $('.worklogo').flexslider({
+                        animation: "slide",
+                        slideshow: true,
+                        itemWidth: 186,
+                        itemMargin: -2
+                    });
+                }
+
+            });
+
+            // for client work jquary
+
+            var windowBottom = $(window).height() + 0;
+            var index = 0;
+            $(document).scroll(function() {
+                divposition = parseInt($('.factabout').offset().top);
+                divsrollpos = parseInt($(window).scrollTop());
+                ctop = parseInt(divposition - divsrollpos);
+                if (ctop < Math.round(windowBottom / 2)) {
+                    if (index == 0) {
+
+                        $('.timer').each(count);
+
+                    }
+                    index++;
+                }
+            });
+
+
+            function count(options) {
+                var $this = $(this);
+                options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+                $this.countTo(options);
+            }
+
+        });
+    </script>
+    <!--for theme custom jquery-->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
